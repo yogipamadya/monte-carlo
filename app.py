@@ -21,7 +21,7 @@ df = pd.DataFrame(tabel)
 df2 = pd.DataFrame(iteration)
 
 app = dash.Dash(__name__)
-
+server = app.server
 
 
 app.layout = html.Div(
